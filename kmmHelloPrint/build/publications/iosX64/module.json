@@ -1,0 +1,79 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmmHelloPrint/1.1.2/kmmHelloPrint-1.1.2.module",
+    "group": "com.example.test",
+    "module": "kmmHelloPrint",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmmHelloPrint.klib",
+          "url": "kmmHelloPrint-iosx64-1.1.2.klib",
+          "size": 6069,
+          "sha512": "ee642dc6b9ae5fd58112f3cedb71b087bedfecf5f307233a3e2336df17dbcb9ce219ef3b85a4aed73afea0e6bf636c05a23f64426af450883fd6983edb5a66db",
+          "sha256": "4f44321cef6fc931c4fbca5ddad0a54b557ea9e73ddfc88423bf48f88979432f",
+          "sha1": "655e0700b0dfafd1e63f6eb863d5abbbfe7eb33d",
+          "md5": "61cc16080e4b9e27564a109b0b8124b7"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmmHelloPrint-iosx64-1.1.2-metadata.jar",
+          "url": "kmmHelloPrint-iosx64-1.1.2-metadata.jar",
+          "size": 4696,
+          "sha512": "7f3bb89688618ce8dc70adbb150a12276701b887751da9cb3bb3cee94ae746fcc84a80cdbba77adf3f1e5ad41a94a692786f218b5e19aa73d564cb18105b73d2",
+          "sha256": "8b3bdde900bf8a7db90b04289735eded7edf373a2b95d01144959b7896b9d697",
+          "sha1": "70395c52fe02eabcba0ea05d2502977513e6ea97",
+          "md5": "f6cd7f626553cba27f738f5db6374c0f"
+        }
+      ]
+    }
+  ]
+}

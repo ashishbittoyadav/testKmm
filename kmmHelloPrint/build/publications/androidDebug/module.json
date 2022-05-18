@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kmmHelloPrint/1.1.2/kmmHelloPrint-1.1.2.module",
+    "group": "com.example.test",
+    "module": "kmmHelloPrint",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmmHelloPrint-debug.aar",
+          "url": "kmmHelloPrint-android-debug-1.1.2.aar",
+          "size": 2776,
+          "sha512": "2c573718c23960493162dc4b5d587956856fe968d455158c1cb2a6a78b8ff98273f8248be1cc8e348984224eb587d39098a559aabf25a391e36c9943c89042d6",
+          "sha256": "8bc4dbb447c55eb21443ddb6a041e7dc921d1b0aeac5a2ae0321b508c668d559",
+          "sha1": "a7db2bb45b705b936ea34e64a2ef7994e268a553",
+          "md5": "7b2d29f5549c2f29236b5152fed1a4f6"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "kmmHelloPrint-debug.aar",
+          "url": "kmmHelloPrint-android-debug-1.1.2.aar",
+          "size": 2776,
+          "sha512": "2c573718c23960493162dc4b5d587956856fe968d455158c1cb2a6a78b8ff98273f8248be1cc8e348984224eb587d39098a559aabf25a391e36c9943c89042d6",
+          "sha256": "8bc4dbb447c55eb21443ddb6a041e7dc921d1b0aeac5a2ae0321b508c668d559",
+          "sha1": "a7db2bb45b705b936ea34e64a2ef7994e268a553",
+          "md5": "7b2d29f5549c2f29236b5152fed1a4f6"
+        }
+      ]
+    }
+  ]
+}

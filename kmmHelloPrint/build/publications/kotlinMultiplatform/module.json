@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.test",
+    "module": "kmmHelloPrint",
+    "version": "1.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.6.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmmHelloPrint-metadata-1.1.2.jar",
+          "url": "kmmHelloPrint-1.1.2.jar",
+          "size": 3423,
+          "sha512": "8185f9776bec54134f77f72b55875dae4cf6626962251632b44e5e82f78e997408f192662869fbeb13a78d3582849d3c2805ec52bcf67310c68a52f72a8fcedc",
+          "sha256": "0502e69b0c37302276e71cfae2e5e606eb2e1f1099ed2b4c9357a3c77085cfe8",
+          "sha1": "dab772850fc70314135cc67d973a453942cf8051",
+          "md5": "ce02239734a70d90b051a88f606b74d7"
+        }
+      ]
+    },
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-android-debug/1.1.2/kmmHelloPrint-android-debug-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-android-debug",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-android-debug/1.1.2/kmmHelloPrint-android-debug-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-android-debug",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-android/1.1.2/kmmHelloPrint-android-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-android",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-android/1.1.2/kmmHelloPrint-android-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-android",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iosarm64/1.1.2/kmmHelloPrint-iosarm64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iosarm64/1.1.2/kmmHelloPrint-iosarm64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iosarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iossimulatorarm64/1.1.2/kmmHelloPrint-iossimulatorarm64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosSimulatorArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_simulator_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iossimulatorarm64/1.1.2/kmmHelloPrint-iossimulatorarm64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iossimulatorarm64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iosx64/1.1.2/kmmHelloPrint-iosx64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iosx64",
+        "version": "1.1.2"
+      }
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "available-at": {
+        "url": "../../kmmHelloPrint-iosx64/1.1.2/kmmHelloPrint-iosx64-1.1.2.module",
+        "group": "com.example.test",
+        "module": "kmmHelloPrint-iosx64",
+        "version": "1.1.2"
+      }
+    }
+  ]
+}
